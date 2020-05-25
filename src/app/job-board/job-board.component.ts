@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class JobBoardComponent  {
 
-  doThis(): void {
-    console.log('Yes');
-  }
+  news = [
+    "51 Students recruited from XYZ College",
+    "Django developers enjoy the biggest salary hike",
+    "New Job Openings 2020 Posted Now!"
+  ]
 
 }
