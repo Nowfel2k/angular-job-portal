@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="register.component.css">
+<body class="container-fluid">
+    
+    <h2 style="font-size: 35px;padding-bottom: 20px;">Register</h2>
+    <form #register="ngForm" (ngSubmit)="onClickSubmit(register.value)">
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control inputBox" name="fname" ngModel required>
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control inputBox"  name="lname" ngModel required>
+        <br>
+        <label for="uname">Username</label>
+        <input type="text" class="form-control inputBox"  name="uname" ngModel required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" class="form-control inputBox"  name="email" ngModel required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" class="form-control inputBox"  name="password" ngModel required>
+        <br>
+        <br />
+        <input type="submit" class="btn btn-primary" value="Register"/>
+
+        <br /><br />
+        <p>Already have an account?
+        <a routerLink="/sign-in" class="btn btn-link">Login</a></p>
+    </form>
+</body>

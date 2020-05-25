@@ -1,0 +1,21 @@
+﻿<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="signin.component.css">
+
+<body class="container-fluid">
+    <h2 style="font-size: 35px;padding-bottom: 20px;">Login</h2>
+    <form #login="ngForm" (ngSubmit)="onClickSubmit(login.value)">
+
+        <label for="email">Email</label>
+        <input type="email" class="form-control inputBox" name="email" ngModel required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" class="form-control inputBox" name="password" ngModel required>
+        <br>
+        <br />
+        <input type="submit" class="btn btn-primary" value="Login" />
+
+        <br /><br />
+        <p>Create a new account
+            <a routerLink="/register" class="btn btn-link">Register</a></p>
+    </form>
+</body>

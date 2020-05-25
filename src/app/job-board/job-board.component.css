@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke;
+}
+
+img {
+    height: 280px;    
+    width: 480px;
+}
+
+.card {
+    padding: 40px;
+}
+
+
+.well {
+    transition: transform .2s;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.well:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px grey;
+}
+
+span  {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.myIcon {
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+}
