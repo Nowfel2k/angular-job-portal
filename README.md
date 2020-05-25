@@ -1,5 +1,11 @@
 # Ost_Interview
 
+## To run the project
+- clone the project
+- run npm install
+- run ng build 
+- run ng serve 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
 ## Development server
